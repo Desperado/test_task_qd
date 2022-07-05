@@ -19,5 +19,5 @@ jobs:
       - name: Run Tests
         run: |
           cd ui/cypress
-          npm ci
+          npm install
           npm run -s cypress:run -- --env username=tomsmith,password=SuperSecretPassword! --spec cypress/e2e/sign-in.cy.js

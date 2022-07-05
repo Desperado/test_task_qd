@@ -24,11 +24,17 @@ context('The QD test task', () => {
       cy.get('h2').should('contain', 'Login');
     })
     
-    it('User must be not able to log in (with invalid data)', () => {
+    it('User must be not able to log in with invalid username', () => {
       cy.visit('/login');
-      cy.get('#username').type('tomsmith1234').should('have.value', 'tomsmith1234');
-      cy.get('#password').type('SuperSecretPassword!1234').should('have.value', 'SuperSecretPassword!1234');
-      cy.get('.fa').click();
-      cy.get('#flash').should('contain', 'Your username is invalid!');
+      // Showcase using custom cypress commands (defined in commands.js)
+      cy.login('wrongUsername', password);
+      cy.get('#flash').should('contain.text', 'Your username is invalid!');
+    })
+
+    it('User must be not able to log in with invalid password', () => {
+      cy.visit('/login');
+      // Showcase using custom cypress commands (defined in commands.js)
+      cy.login(username, 'wrongPassword');
+    cy.get('#flash').should('contain.text', 'Your password is invalid!');
     })
 })

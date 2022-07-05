@@ -1,0 +1,29 @@
+{
+    "name": "test-task-qd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "cypress:open": "cypress open",
+      "cypress:verify": "cypress verify",
+      "cypress:run": "cypress run",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Desperado/test_task_qd.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Desperado/test_task_qd/issues"
+    },
+    "homepage": "https://github.com/Desperado/test_task_qd#readme",
+    "devDependencies": {
+      "cypress": "10.3.0"
+    },
+    "dependencies": {
+      "install": "0.13.0",
+      "npm": "7.6.3"
+    }
+  }

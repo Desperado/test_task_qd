@@ -16,5 +16,11 @@ After that you can run Cypress in without UI with
 
 uses plain BDD spec with standard Cypress stylistic, Cucumber could be used as well but I left it out for the sake of simplicity here.
 
+## Github Status
+
+| CI            | Build Status  |
+| :---------    | :---------    |
+| Github Action | [![UI-Automation](https://github.com/Desperado/test_task_qd/actions/workflows/ui.yml/badge.svg)](https://github.com/Desperado/test_task_qd/actions/workflows/ui.yml) |
+
 ## Improvements
 ### Improvement #1

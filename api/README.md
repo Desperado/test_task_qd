@@ -1,10 +1,11 @@
-# api
+# API Test task
+## Overview 
 
 Second part of Test Automation Assignment
 
-API TEST AUTOMATION FRAMEWORK against reqres.in
+API TEST AUTOMATION FRAMEWORK based on `mocha.js` and `chai-promises` and is used against reqres.in
 
-### Github CI
+### Github Status
 
 | CI            | Build Status  |
 | :---------    | :---------    |
@@ -15,6 +16,7 @@ API TEST AUTOMATION FRAMEWORK against reqres.in
 ### How to run
 
 ```bash 
+npm install
 npm run test
 ```
 

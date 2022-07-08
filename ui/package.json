@@ -20,9 +20,5 @@
     "homepage": "https://github.com/Desperado/test_task_qd#readme",
     "devDependencies": {
       "cypress": "10.3.0"
-    },
-    "dependencies": {
-      "install": "0.13.0",
-      "npm": "7.6.3"
     }
   }

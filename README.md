@@ -1,4 +1,6 @@
-# test_task_qd
+# Quandoo Test Automation Challenge
 
 
-[UI README](ui/README.md)
+[UI part README](ui/README.md)
+
+[API part README](api/README.md)

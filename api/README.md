@@ -49,5 +49,5 @@ Then the report would be generated locally
 ## Possible enhancements
 
 A few things can be done more.
-- Functions around 
+- Function around get one user data
 - I was looking to additionally automatically post status reports to github.io page but hasn't resolved the publish step

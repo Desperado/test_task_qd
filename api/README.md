@@ -8,7 +8,7 @@ API TEST AUTOMATION FRAMEWORK against reqres.in
 
 | CI            | Build Status  |
 | :---------    | :---------    |
-| Github Action | [![API-Automation](https://github.com/Desperado/test_task_qd/actions/workflows/api.yml/badge.svg?branch=master)](https://github.com/Desperado/test_task_qd/actions/workflows/api.yml) |
+| Github Action | [![API-Automation](https://github.com/Desperado/test_task_qd/actions/workflows/api.yml/badge.svg)](https://github.com/Desperado/test_task_qd/actions/workflows/api.yml) |
 
 <br>
 

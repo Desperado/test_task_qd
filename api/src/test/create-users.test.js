@@ -5,7 +5,7 @@ import * as data from "../data/users.data";
 import * as schema from "../schemas/CreateUsers.schema.json"
 import { expect } from "../helper/schema.helper";
 
-describe('As an API client, I want to create a new user', () => {
+describe('As an API user, I want to create a new user', () => {
 
     it('verifies that client sent a POST request /api/users', async () => {
         const response = await users.POST(data.NEW_USERS)

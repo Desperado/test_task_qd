@@ -16,12 +16,7 @@ const testBase = axios.create({
         function (data) {
             return qs.stringify(data)
         }
-    ],
-
-    validateStatus:
-        function () {
-            return true;
-        }
+    ]
 });
 
 testBase.interceptors.response.use(

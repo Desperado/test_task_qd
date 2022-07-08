@@ -4,7 +4,7 @@ import { describe, test } from "mocha";
 import {queryParams} from "../helper/lib"
 import * as data from "../data/users.data"
 
-describe('As an API client, I want to get list of users', () => {
+describe('As an API user, I want to get list of users', () => {
 
     it('verifies that client sent GET request /api/users/:UserId', async () => {
         const params = queryParams(data.PAGE)

@@ -5,7 +5,7 @@ import { assert } from "chai";
 import { describe, test } from "mocha";
 import * as data from "../data/users.data";
 
-describe('As an API client, I want to register a new user', () => {
+describe('As an API user, I want to register a new user', () => {
 
 
     it('verifies that client sent a POST request /api/login', async () => {

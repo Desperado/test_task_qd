@@ -1,5 +1,7 @@
 import number from "../helper/generateNumber.helper"
 
+// Data storage for the tests
+
 export const NEW_USERS = {
     name: "qa " + number,
     job: "leader"

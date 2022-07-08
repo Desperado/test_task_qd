@@ -11,6 +11,8 @@ This is example Cypress scenario to do the tests against the simple login form
 
 - MacOS 10.x-12.x
 - Node.js 14
+- MacOS command line tools
+- VS Code for opening the project
 
 ## Installation
 
@@ -28,9 +30,17 @@ uses plain BDD spec with standard Cypress stylistic, Cucumber could be used as w
 
 ## Github Status
 
+All the code is executed automatically and it is possible to view the result in the github directly
+
 | CI            | Build Status  |
 | :---------    | :---------    |
 | Github Action | [![UI-Automation](https://github.com/Desperado/test_task_qd/actions/workflows/ui.yml/badge.svg)](https://github.com/Desperado/test_task_qd/actions/workflows/ui.yml) |
 
 ## Improvements
 ### Improvement #1
+
+- Wrap assertions into the specific module and functions and so have those UI elements out of the test files.
+
+### Improvement #2
+
+- Make a reporting nicer with html reports

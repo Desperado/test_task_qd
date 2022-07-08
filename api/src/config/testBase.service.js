@@ -5,6 +5,8 @@ import log from "../helper/log"
 
 dotenv.config();
 
+// Base class for tests
+
 const testBase = axios.create({
     baseURL: process.env.BASEURL,
     headers: {

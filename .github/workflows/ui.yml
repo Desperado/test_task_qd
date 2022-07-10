@@ -1,7 +1,10 @@
 name: Cypress Run
 
 on:
-  push
+  push:
+    paths-ignore:
+        - '**.md'
+        - '/**/**.md'
 
 jobs:
   cypress:

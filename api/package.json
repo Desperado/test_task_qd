@@ -1,5 +1,5 @@
 {
-  "name": "reqres.in",
+  "name": "test-task-qd-api",
   "version": "1.0.0",
   "description": "API Automation Test Framework Mocha",
   "main": "index.js",

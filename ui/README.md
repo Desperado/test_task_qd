@@ -18,6 +18,7 @@ This is example Cypress scenario to do the tests against the simple login form
 
 After you have cloned the repository locally please use this command to install the framework and dependencies. The framework explicitly uses new version of Cypress - `cypress@10.3.0` 
   
+	cd ui
 	npm install
 
 After that you can run Cypress in without UI with

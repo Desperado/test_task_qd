@@ -45,6 +45,9 @@ Then the report would be generated locally
 
 <br>
 
+## Observation
+
+I have made a few more tests, also including tests for `users` endpoints, to get users list and also to create users, also `register-users.test.js` have tests using hardcoded data and data that it gets from the previous requests
 
 ## Possible enhancements
 

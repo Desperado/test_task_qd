@@ -38,10 +38,15 @@ All the code is executed automatically and it is possible to view the result in 
 | Github Action | [![UI-Automation](https://github.com/Desperado/test_task_qd/actions/workflows/ui.yml/badge.svg)](https://github.com/Desperado/test_task_qd/actions/workflows/ui.yml) |
 
 ## Improvements
+
 ### Improvement #1
+
+- Put passwords and usernames out of the repository code and instead inject them as secure variables in the github project or use other means of security
+
+### Improvement #2
 
 - Wrap assertions into the specific module and functions and so have those UI elements out of the test files.
 
-### Improvement #2
+### Improvement #3
 
 - Make a reporting nicer with html reports

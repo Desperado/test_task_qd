@@ -41,7 +41,7 @@ All the code is executed automatically and it is possible to view the result in 
 
 ### Improvement #1
 
-- Put passwords and usernames out of the repository code and instead inject them as secure variables in the github project or use other means of security
+- Put passwords and usernames out of the repository code and instead inject them as secure variables in the github project or use other means of security abstraction
 
 ### Improvement #2
 
